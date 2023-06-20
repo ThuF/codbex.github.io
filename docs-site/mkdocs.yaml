@@ -14,7 +14,7 @@ theme:
   favicon: /img/favicon.png
   logo: img/siteicon.png
   name: mkdocs
-  custom_dir: overrides
+  # custom_dir: overrides
   features:
     - navigation.instant
     - navigation.top
@@ -23,13 +23,13 @@ theme:
     - navigation.indexes
     - navigation.tracking
 
-extra_javascript:
-  - stylesheets/extra.js
+# extra_javascript:
+#   - stylesheets/extra.js
 
-extra_css:
-  - stylesheets/custom.css
-  - stylesheets/homepage.css
-  - stylesheets/extra.css
+# extra_css:
+#   - stylesheets/custom.css
+#   - stylesheets/homepage.css
+#   - stylesheets/extra.css
 
 markdown_extensions:
     - attr_list
