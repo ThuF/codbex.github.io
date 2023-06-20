@@ -1,0 +1,74 @@
+site_name: codbex
+site_url: https://www.codbex.com
+
+# nav:
+#     - Home: 'index.md'
+#     - Documentation: '/help/'
+#     - API: '/api/'
+#     - Blogs: '/blogs/'
+#     - News: '/news/'
+#     - Releases: '/releases/'
+#     - Downloads: 'https://downloads.dirigible.io'
+
+theme:
+  favicon: /img/favicon.png
+  logo: img/siteicon.png
+  name: mkdocs
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.tracking
+
+extra_javascript:
+  - stylesheets/extra.js
+
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/homepage.css
+  - stylesheets/extra.css
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.highlight:
+        linenums: false
+    - pymdownx.keys
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.emoji
+    - meta
+    - footnotes
+    - admonition
+    - pymdownx.details
+
+repo_url: https://github.com/codbex
+repo_name: codbex
+edit_uri: codbex.github.io/edit/main/docs-site/docs
+
+copyright: © 2023 codbex ltd.
+extra:
+  homepage: https://www.codbex.com
+  # analytics:
+  #   provider: google
+  #   property: UA-49027147-1
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/codbex
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/codbex/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@codbex7089
+    - icon: fontawesome/brands/slack
+      link: https://slack.dirigible.io
+
+plugins:
+  - social:
+      cards_color:
+        fill: "#E68907"
+        text: "#2D2D2D"
